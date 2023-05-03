@@ -1,0 +1,12 @@
+:root {
+--branco-principal: #ffffff;
+--cinza-secundario: #c0c0c0;
+--botao-azul: #167bf7;
+--cor-de-fudo: #00030c;
+
+}
+
+body{
+background-color: var(--cor-de-fudo)
+
+}
