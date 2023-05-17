@@ -18,5 +18,16 @@ margin:0;
 padding:0;
 
     }
+#botao:hover {
+transform: scale(1.08);
+transition: transform 200ms linear;
+
+}
+#botao2:hover {
+transform: scale(1.08);
+transition: transform 200ms linear;
+
+
+}
 
 
