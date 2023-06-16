@@ -1,35 +1,66 @@
 :root {
-    --branco-principal: #ffffff;
+    --branco-principal: #FFFFFF;
     --cinza-secundario: #c0c0c0;
-    --botao-azul: #167bf7;
-    --cor-de-fudo: #00030c;
-    
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030c;
     }
     
     body{
-    background-color: var(--cor-de-fudo)
-   
-
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    }
+    
+    * {
+        margin:0;
+        padding:0;
+    }
+    
+    .principal {
+    background-image: url(“img/Background.png”);
+    background-repeat: no-repeat;
+    }
+    
+    .container {
+    height: 100vh;
+    background-size: contain;
+    }
+    
+    .container__botao {
+    background-color: var(--botao-azul);
+     border-radius: 5px;
+     padding: 1em;
+     color: var(--branco-principal);
+     display: block;
     }
 
-    *{
+    #assista1 {
 
-margin:0;
-padding:0;
+       
+
+position: absolute;
+width: 588px;
+height: 58px;
+left: 799px;
+top: 954px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
 
     }
-#botao:hover {
-transform: scale(1.08);
-transition: transform 200ms linear;
+#assista2 {
 
+    position: absolute;
+width: 588px;
+height: 48px;
+left: 732px;
+top: 1064px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
 }
-#botao2:hover {
-transform: scale(1.08);
-transition: transform 200ms linear;
-
-
-}
-
-
-
-
