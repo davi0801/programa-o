@@ -31,8 +31,20 @@ color: aliceblue;
 text-align: center;
 
     }
-
-.tecnologia2 {
-
-    
+#foto2 {
+width: 900px;
+padding: 100px;  
+margin-left: 390px
 }
+
+#texto4 {
+color: aliceblue;
+text-align: center;
+}
+
+#button {
+    margin-left: 870px;
+width: 150px;
+}
+
+
