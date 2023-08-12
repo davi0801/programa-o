@@ -1,5 +1,5 @@
 body {
-    background-color: midnightblue;
+    background-color: rgb(0, 0, 0);
     }
     
     .tecnologia1 {
@@ -9,8 +9,8 @@ body {
     }
     
     #foto1{
-        margin-left: 320px;
-        padding: 30px;
+        padding-left: 330px;
+     width: 253px;
     }
 
     #texto1 {
@@ -31,10 +31,17 @@ color: aliceblue;
 text-align: center;
 
     }
-#foto2 {
-width: 900px;
-padding: 100px;  
-margin-left: 390px
+
+#fone {
+
+width: 200px;
+padding-left: 280px;
+}
+
+#cadeira {
+
+width: 190px;
+
 }
 
 #texto4 {
@@ -43,8 +50,33 @@ text-align: center;
 }
 
 #button {
-    margin-left: 870px;
+    margin-left: 610px;
 width: 150px;
 }
 
+#prefere {
 
+color: aliceblue;
+text-align: center;
+}
+
+#waths {
+width: 60px;
+}
+
+#telefone {
+width: 60px;
+}
+#email {
+width: 60px;
+
+}
+
+#contato {
+color: aliceblue;
+}
+
+#contato2 {
+color: aliceblue;
+
+}
